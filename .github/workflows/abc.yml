@@ -9,13 +9,13 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - name: To echo print
-      - run: echo "Hello Abhash"
+        run: echo "Hello Abhash"
 
       - name: To list the files
-      - run: ls -la
+        run: ls -la
 
       - name: Show the current data and time
-      - run: date
+        run: date
 
 
 
