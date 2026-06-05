@@ -1,0 +1,22 @@
+name: my first WF
+
+on: 
+  push
+
+
+jobs:
+  checkout-jobs:
+    runs-on: ubuntu-latest
+    steps:
+      - name: To echo print
+      - run: echo "Hello Abhash"
+
+      - name: To list the files
+      - run: ls -la
+
+      - name: Show the current data and time
+      - run: date
+
+
+
+
